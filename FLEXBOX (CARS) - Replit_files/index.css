@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: very #d3d3d3;
+}
+main{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    
+    
+}
+
+.right-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: auto;
+    width: 150px;
+    height: 60vh;
+}
+
+.right-content h3{
+    font-size: bold;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15%;
+}
+
+.right-content p{
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin-top: 12%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.right-content button{
+    
+        background-color: hsl(31, 77%, 52%);
+        border-color: #d3d3d3;
+        border-radius: 50px;
+        padding: 5px 5px;
+        margin-top: 35px;
+        font: 10px;
+        color: antiquewhite;
+        
+}
+
+.middle-content{
+    background-color: hsl(184, 100%, 22%);
+    padding: auto;
+    width: 150px;
+    height: 60vh;
+
+}
+
+.middle-content h3{
+    font-size: bold;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.middle-content p{
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.middle-content button{
+    
+    background-color: hsl(184, 100%, 22%);
+    border-color: #d3d3d3;
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    font: 10px;
+    color: antiquewhite;
+    
+}
+
+.left-content{
+    background-color: hsl(179, 100%, 13%);
+    padding: auto;
+    width: 150px;
+    height: 60vh;
+}
+
+.left-content h3{
+    font-size: bold;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.left-content p{
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: white;
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.left-content button{
+    
+    background-color: hsl(179, 100%, 13%);
+    border-color: #d3d3d3;
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    font: 10px;
+    color: antiquewhite;
+    
+}
